@@ -17,5 +17,5 @@
 #CMD ["run_tests", "-t", "all"]
 FROM opnfv/xtesting
 
-COPY hello.robot hello.robot
+COPY hello.robot /
 COPY testcases.yaml /etc/xtesting/testcases.yaml
